@@ -1,0 +1,184 @@
+
+.block-apropos{
+    background-color: black;
+    margin-top: -1.5rem;
+}
+
+.propos-titre{
+text-align: center;
+color: antiquewhite;
+padding: 2rem;
+}
+
+.bloc-propos {
+    height: 50vh;
+    display: flex;
+    background-color: black;
+  }
+  
+  .block-gauche {
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+
+    .bi {
+       font-size: 10rem;
+      opacity: 20%;
+      color: white;
+      }
+      .texte-propos{
+        padding: 0 5rem;
+        text-align: center;
+        color: white;
+      }
+     
+  }
+  .bi:hover{
+    color: #ff4753 !important;
+  }
+
+  .block-droite {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .image-cercle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  .image-cercle img {
+    width: 105%;
+    height: 105%;
+    object-fit: cover;
+  }
+  
+  .social-network {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    font-size: 1rem;
+    margin-top: 20px;
+    color: white;
+    .bi{
+        cursor: pointer;
+
+    }
+  }
+  
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .animate-icon {
+    animation: spin 2s linear infinite; /* 2 secondes de rotation infinie */
+  }
+  
+  .animate-up-down {
+    animation: moveUpDown 2s ease-in-out infinite; /* Animation de montée et descente */
+  }
+  
+  @keyframes moveUpDown {
+    0%, 100% {
+      transform: translateY(0); /* L'image est à sa position de départ */
+    }
+    50% {
+      transform: translateY(-20px); /* L'image monte de 20 pixels au milieu de l'animation */
+    }
+  }
+  
+
+  @media (max-width: 768px) {
+
+.block-apropos{
+  background-color: rgb(0, 0, 0);
+}
+
+.propos-titre{
+text-align: center;
+color: antiquewhite;
+padding: 2rem;
+}
+
+.bloc-propos {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+.block-gauche {
+  flex: 1;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+
+  .bi {
+     font-size: 10rem;
+    opacity: 20%;
+    color: white;
+    }
+    .texte-propos{
+      padding: 0 5rem;
+      text-align: center;
+      color: white;
+    }
+   
+}
+.bi:hover{
+  color: #ff4753 !important;
+}
+
+.block-droite {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 1rem;
+}
+
+.image-cercle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.image-cercle img {
+  width: 105%;
+  height: 105%;
+  object-fit: cover;
+}
+
+.social-network {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  font-size: 1rem;
+  margin-top: 20px;
+  color: white;
+  .bi{
+      cursor: pointer;
+
+  }
+}
+
+
+  }

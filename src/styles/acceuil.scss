@@ -1,0 +1,81 @@
+.big-picture{
+    width: 100%;
+height: auto;
+}
+
+
+.block-acceuil {
+    position: relative; 
+  }
+  
+  /* Style pour l'image */
+ .block-acceuil img {
+    width: 100%;
+    height: auto; /* Pour maintenir le ratio de l'image */
+  }
+  
+  /* Style pour le paragraphe */
+  .vers_travaux {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 100px;
+    margin: 0;
+  }
+  
+  /* Style pour l'icône */
+  .chevron {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 60px; /* Ajustez la valeur en fonction de vos besoins */
+    font-size: 2rem; /* Ajustez la taille de l'icône selon vos besoins */
+  }
+
+  
+  @media (max-width: 992px) {
+    /* Styles pour les écrans de largeur maximale de 992px ou moins */
+    .big-picture {
+      width: 100%;
+      height: auto; /* Ajustez la hauteur automatiquement */
+      object-fit: contain;
+    }
+  
+    /* Ajustez d'autres styles au besoin pour cette taille d'écran */
+  }
+  
+  @media (max-width: 768px) {
+    /* Styles pour les écrans de largeur maximale de 768px ou moins */
+    .big-picture {
+      height: auto; /* Ajustez la hauteur automatiquement */
+      object-fit: cover;
+      overflow: hidden;
+    }
+    .big-picture img{
+      object-fit: cover;
+      height: auto;
+      width: 150%;
+      margin-left: -100px;
+    }
+    .vers_travaux {
+      position: absolute;
+      color: rgb(0, 0, 0);
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 30px;
+      margin: 0;
+      font-size: 1rem;
+    }
+
+    .chevron {
+      position: absolute;
+      color: rgb(0, 0, 0);
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: 10px; /* Ajustez la valeur en fonction de vos besoins */
+      font-size: 1.5rem; /* Ajustez la taille de l'icône selon vos besoins */
+    }
+    /* Ajustez d'autres styles au besoin pour cette taille d'écran */
+  }

@@ -1,0 +1,174 @@
+.contact-title{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+}
+
+
+.contacts-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 35vh;
+    margin: auto;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #777;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+
+    &::before {
+        z-index: -1;
+        position: absolute;
+        content: "";
+        bottom: 15px;
+        left: 10px;
+        width: 50%;
+        top: 80%;
+        max-width: 300px;
+        background: #777;
+        box-shadow: 0 15px 10px #777;
+        transform: rotate(-3deg);
+    }
+
+    &::after {
+        z-index: -1;
+        position: absolute;
+        content: "";
+        bottom: 15px;
+        left: 10px;
+        width: 50%;
+        top: 80%;
+        max-width: 300px;
+        background: #777;
+        box-shadow: 0 15px 10px #777;
+        transform: rotate(-3deg);
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        padding: 2rem .5rem;
+    }
+}
+
+.btn-mail {
+    border-radius: .5rem;
+    background-color:  #ff4753;
+    border: none;
+    margin: auto;
+    margin-bottom: 2rem;
+    padding: .5rem;
+}
+
+.pitch {
+    margin: auto;
+    padding: 3rem;
+    font-size: 2rem;
+}
+
+.contact-social-network{
+    display: flex;
+    margin-bottom: 3rem;
+    gap: 1rem;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.block-contact{
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+
+.contact-form {
+    logo-francis{
+        width: 200px;
+    }
+}
+
+@media (max-width : 768px){
+
+    .block-contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-title{
+        text-align: center;
+        color: rgb(0, 0, 0);
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+
+.contacts-form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 35vh;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #777;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+
+    &::before {
+        z-index: -1;
+        position: absolute;
+        content: "";
+        bottom: 15px;
+        left: 10px;
+        width: 50%;
+        top: 80%;
+        max-width: 300px;
+        background: #777;
+        box-shadow: 0 15px 10px #777;
+        transform: rotate(-3deg);
+    }
+
+    &::after {
+        z-index: -1;
+        position: absolute;
+        content: "";
+        bottom: 15px;
+        left: 10px;
+        width: 50%;
+        top: 80%;
+        max-width: 300px;
+        background: #777;
+        box-shadow: 0 15px 10px #777;
+        transform: rotate(-3deg);
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-weight: 700;
+        padding: 2rem .5rem;
+    }
+}
+
+
+    .btn-mail {
+        border-radius: .5rem;
+        background-color:  #ff4753;
+        border: none;
+        margin: auto;
+        margin-bottom: 1rem;
+        padding: .5rem;
+    }
+
+    .pitch {
+        margin: auto;
+        padding:1rem;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}

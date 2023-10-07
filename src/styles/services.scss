@@ -1,0 +1,139 @@
+
+.block-services{
+    border: .1rem solid black;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rond{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ff4753;
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+
+// .rond svg{
+//         display: block;
+//         margin: 0 auto;
+//         position: relative;
+//         top: 50%;
+//         transform: translateY(-50%);
+// }
+
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.gap-services{
+    gap: 2rem;
+}
+
+
+.skills{
+    text-align: center;
+}
+
+.outils{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.container svg{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+    left: 10%;
+  }
+
+ .titre-services{
+    margin: 3rem 0 5rem 0;
+    text-align: center;
+    font-size: 2.5rem ;
+}
+
+
+.services{
+ 
+    h4 {
+        margin-top: 3rem;
+        text-align: center;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: .5rem ;
+    }
+
+
+    li{
+        width: 6rem;
+    list-style: none;
+    border: .1rem solid black;
+    border-radius: .5rem;
+    padding: .3rem;
+    text-align: center;}
+}
+
+.services a{
+margin-bottom: 3rem;
+background-color: #ff4753;
+color: white;
+font-weight: 700;
+}
+
+@media (max-width: 768px){
+
+    .gap-services {
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+        gap: 5rem;
+      }
+
+
+      .rond{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #ff4753;
+        width: 70px; 
+        height: 70px;
+        border-radius: 50%;
+        margin: 0 auto;
+        margin-top: -40px;
+    }
+
+    .services{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .titre-services{
+        margin: .1rem 0 1rem 0;
+        text-align: center;
+        font-size: 2.5rem ;
+    }
+
+
+    .rond svg {
+        width: 70px; /* Réduisez la largeur du SVG pour les écrans de moins de 768px */
+        height: 70px; /* Vous pouvez également ajuster la hauteur en conséquence */
+        fill: white; /* Assurez-vous que la couleur de remplissage reste la même */
+      }
+}
