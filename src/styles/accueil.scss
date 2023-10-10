@@ -11,7 +11,7 @@ height: auto;
   /* Style pour l'image */
  .block-acceuil img {
     width: 100%;
-    height: auto; /* Pour maintenir le ratio de l'image */
+    height: auto; 
   }
   
   /* Style pour le paragraphe */
@@ -20,7 +20,7 @@ height: auto;
     color: rgb(0, 0, 0);
     left: 50%;
     transform: translateX(-50%);
-    bottom: 100px;
+    bottom: 130px;
     margin: 0;
   }
   
@@ -30,8 +30,8 @@ height: auto;
     color: rgb(0, 0, 0);
     left: 50%;
     transform: translateX(-50%);
-    bottom: 60px; /* Ajustez la valeur en fonction de vos besoins */
-    font-size: 2rem; /* Ajustez la taille de l'icône selon vos besoins */
+    bottom: 90px; 
+    font-size: 2rem; 
   }
 
   
@@ -39,17 +39,17 @@ height: auto;
     /* Styles pour les écrans de largeur maximale de 992px ou moins */
     .big-picture {
       width: 100%;
-      height: auto; /* Ajustez la hauteur automatiquement */
+      height: auto; 
       object-fit: contain;
     }
   
-    /* Ajustez d'autres styles au besoin pour cette taille d'écran */
+    
   }
   
   @media (max-width: 768px) {
     /* Styles pour les écrans de largeur maximale de 768px ou moins */
     .big-picture {
-      height: auto; /* Ajustez la hauteur automatiquement */
+      height: auto;
       object-fit: cover;
       overflow: hidden;
     }
@@ -57,14 +57,14 @@ height: auto;
       object-fit: cover;
       height: auto;
       width: 150%;
-      margin-left: -100px;
+      margin-left: -70px;
     }
     .vers_travaux {
       position: absolute;
       color: rgb(0, 0, 0);
       left: 50%;
       transform: translateX(-50%);
-      bottom: 30px;
+      bottom: 50px;
       margin: 0;
       font-size: 1rem;
     }
@@ -74,8 +74,8 @@ height: auto;
       color: rgb(0, 0, 0);
       left: 50%;
       transform: translateX(-50%);
-      bottom: 10px; /* Ajustez la valeur en fonction de vos besoins */
-      font-size: 1.5rem; /* Ajustez la taille de l'icône selon vos besoins */
+      bottom: 10px; 
+      font-size: 1rem; 
     }
-    /* Ajustez d'autres styles au besoin pour cette taille d'écran */
+  
   }

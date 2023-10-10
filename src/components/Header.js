@@ -41,37 +41,39 @@ const Header = () => {
   return (
     <nav className="navbar">
       <div className="container">
-        <a href="#Acceuil">
+        <a href="#Accueil">
           <img src={logo} alt="logo-Francis" className="logo-francis" />
         </a>
 
-        <button className="navbar-toggler" type="button" onClick={toggleNavbar} aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
+        <div className="navbar-collapse-container">
+          <button className="navbar-toggler" type="button" onClick={toggleNavbar} aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
 
-        <div className={`collapse navbar-collapse ${navbarOpen ? "show" : ""}`} id="navbarSupportedContent">
-          <ul className="navbar-nav ms-auto">
-            <li className="nav-item">
-              <a className="nav-link active" href="#Apropos">
-                A propos
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link active" href="#Services">
-                Mes services
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link active" href="#Travaux">
-                Mes travaux
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link active" href="#Contact">
-                Contact
-              </a>
-            </li>
-          </ul>
+          <div className={`collapse navbar-collapse ${navbarOpen ? "show" : ""}`} id="navbarSupportedContent">
+            <ul className="navbar-nav ms-auto">
+              <li className="nav-item">
+                <a className="nav-link active" href="#Apropos">
+                  A propos
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active" href="#Services">
+                  Mes services
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active" href="#Travaux">
+                  Mes travaux
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link active" href="#Contact">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
