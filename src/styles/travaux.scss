@@ -40,14 +40,14 @@ padding: 2rem;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-    margin: 0 5rem; /* Marge gauche et droite de 20rem */
-    margin-bottom: 3rem;
+    margin: 0 5rem; 
+    margin-bottom: 2rem;
   }
 
 
   .card {
-    width: 40rem; /* Largeur de la carte */
-    height: 70vh; /* Hauteur de la carte */
+    width: 40rem; 
+    height: auto; 
     border: 1px solid #ccc;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 1rem;
@@ -61,7 +61,7 @@ padding: 2rem;
 
  .card-body a{
     background-color: #777;
-    width: auto;
+    width: fit-content;
     color: white;
     font-weight: 700;
  }
