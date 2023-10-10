@@ -40,7 +40,7 @@ const Header = () => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light ">
-      <div className="container custom-navbar">
+      <div className="container">
         <a href="#Acceuil">
           <img src={logo} alt="logo-Francis" className="logo-francis" />
         </a>
