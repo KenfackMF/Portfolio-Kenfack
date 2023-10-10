@@ -39,7 +39,7 @@ const Header = () => {
   }, [navbarOpen, toggleNavbar]);
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light ">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
         <a href="#Acceuil">
           <img src={logo} alt="logo-Francis" className="logo-francis" />
