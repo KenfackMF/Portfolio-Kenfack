@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "../styles/propos.scss";
-import Skills from "../componants/Skills.js";
+import Skills from "../components/Skills.js";
 import image from "../assets/image_3.jpg";
 import { about, section2title, skillsBar } from "../data/profile.js";
 
@@ -28,10 +28,9 @@ const APropos = () => {
               </div>
               <div className="social-network">
                 {/* Ajoutez des liens avec target="_blank" pour ouvrir dans une nouvelle fenêtre */}
-                <i className="bi bi-linkedin" onClick={() => openSocialMediaLink("linkedin.com/in/francis-kenfack-momo-1a7414110")}></i>
+                <i className="bi bi-linkedin" onClick={() => openSocialMediaLink("https://www.linkedin.com/in/francis-kenfack-momo-1a7414110")}></i>
                 <i className="bi bi-twitter-x" onClick={() => openSocialMediaLink("https://twitter.com/Sisquom73")}></i>
-                <i className="bi bi-instagram" onClick={() => openSocialMediaLink("https://www.instagram.com/momofrancis/")}></i>
-                <i className="bi bi-github" onClick={() => openSocialMediaLink("https://github.com/dashboard")}></i>
+                <i className="bi bi-github" onClick={() => openSocialMediaLink("https://github.com/KenfackMF")}></i>
               </div>
             </div>
           </div>

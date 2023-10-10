@@ -1,9 +1,9 @@
 import "./styles/App.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Header from "./componants/Header";
-import Footer from "./componants/Footer";
-import Acceuil from "./pages/Acceuil";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Accueil from "./pages/Accueil";
 import APropos from "./pages/APropos";
 import Services from "./pages/Services";
 import Travaux from "./pages/Travaux";
@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <Header />
-      <Acceuil />
+      <Accueil />
       <APropos />
       <Services />
       <Travaux />

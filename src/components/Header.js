@@ -1,55 +1,51 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useCallback } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
 import logo from "../assets/logo.svg";
 import "../styles/header.scss";
 
 function scrollToSection(event) {
   event.preventDefault();
-  const targetId = event.target.getAttribute("href").substring(1); // Récupère l'ID de la section cible
-  const targetElement = document.getElementById(targetId); // Récupère l'élément cible
+  const targetId = event.target.getAttribute("href").substring(1);
+  const targetElement = document.getElementById(targetId);
 
   if (targetElement) {
-    targetElement.scrollIntoView({ behavior: "smooth" }); // Effectue le défilement doux
+    targetElement.scrollIntoView({ behavior: "smooth" });
   }
 }
 
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
-  const toggleNavbar = () => {
+  // eslint-disable-next-line react-hooks/exhaustive-deps, no-undef
+  const toggleNavbar = useCallback(() => {
     setNavbarOpen(!navbarOpen);
-  };
+  });
 
   useEffect(() => {
     document.querySelectorAll(".nav-link").forEach((link) => {
       link.addEventListener("click", (clickEvent) => {
         if (navbarOpen) {
-          toggleNavbar(); // Ferme la barre de navigation si elle est ouverte
+          toggleNavbar();
         }
         scrollToSection(clickEvent);
       });
     });
 
-    // Retirez les gestionnaires d'événements lors du démontage du composant
     return () => {
       document.querySelectorAll(".nav-link").forEach((link) => {
         link.removeEventListener("click", scrollToSection);
       });
     };
-  }, [navbarOpen]);
+  }, [navbarOpen, toggleNavbar]);
 
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
-      <div className="container">
+    <nav className="navbar navbar-expand-lg navbar-light bg-light ">
+      <div className="container custom-navbar">
         <a href="#Acceuil">
           <img src={logo} alt="logo-Francis" className="logo-francis" />
         </a>
 
-        <button
-          className="navbar-toggler"
-          type="button"
-          onClick={toggleNavbar} // Utilisez le gestionnaire d'événements pour basculer l'état de la barre de navigation
-          aria-label="Toggle navigation"
-        >
+        <button className="navbar-toggler" type="button" onClick={toggleNavbar} aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
 

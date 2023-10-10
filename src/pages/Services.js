@@ -32,7 +32,7 @@ const Services = () => {
             ))}
           </div>
         </div>
-        <a className="btn btn-primary btn-service" href="../public/Kenfack_CV.pdf" download="mon-cv.pdf" role="button">
+        <a className="btn btn-primary btn-service" href="./Kenfack_CV.pdf" download="mon-cv.pdf" role="button">
           Télécharger mon cv
         </a>
       </div>
