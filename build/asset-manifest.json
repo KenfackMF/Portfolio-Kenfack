@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-Kenfack/static/css/main.4ce0df6c.css",
-    "main.js": "/Portfolio-Kenfack/static/js/main.41e80028.js",
+    "main.css": "/Portfolio-Kenfack/static/css/main.26b8cbcf.css",
+    "main.js": "/Portfolio-Kenfack/static/js/main.4fbd3e8b.js",
     "static/js/787.40f50545.chunk.js": "/Portfolio-Kenfack/static/js/787.40f50545.chunk.js",
     "static/media/sophie_bluel.png": "/Portfolio-Kenfack/static/media/sophie_bluel.533fcd5b8b085bb07c7e.png",
     "static/media/kasa.png": "/Portfolio-Kenfack/static/media/kasa.6c108a39cd226a6709bd.png",
@@ -11,14 +11,14 @@
     "static/media/image_3.jpg": "/Portfolio-Kenfack/static/media/image_3.7b1d5f7b526d10b21448.jpg",
     "static/media/bootstrap-icons.woff?": "/Portfolio-Kenfack/static/media/bootstrap-icons.449ad8adf6ae0424b7ed.woff",
     "static/media/bootstrap-icons.woff2?": "/Portfolio-Kenfack/static/media/bootstrap-icons.dea24bf5a7646d8b84e7.woff2",
-    "static/media/logo.svg": "/Portfolio-Kenfack/static/media/logo.24ddc05732bf540ef0c184f189d36ee4.svg",
+    "static/media/logo.svg": "/Portfolio-Kenfack/static/media/logo.ddf2c24397caeebeeca9c08ec76f5ca6.svg",
     "index.html": "/Portfolio-Kenfack/index.html",
-    "main.4ce0df6c.css.map": "/Portfolio-Kenfack/static/css/main.4ce0df6c.css.map",
-    "main.41e80028.js.map": "/Portfolio-Kenfack/static/js/main.41e80028.js.map",
+    "main.26b8cbcf.css.map": "/Portfolio-Kenfack/static/css/main.26b8cbcf.css.map",
+    "main.4fbd3e8b.js.map": "/Portfolio-Kenfack/static/js/main.4fbd3e8b.js.map",
     "787.40f50545.chunk.js.map": "/Portfolio-Kenfack/static/js/787.40f50545.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ce0df6c.css",
-    "static/js/main.41e80028.js"
+    "static/css/main.26b8cbcf.css",
+    "static/js/main.4fbd3e8b.js"
   ]
 }
