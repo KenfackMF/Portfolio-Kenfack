@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-Kenfack/static/css/main.b45c7ebd.css",
-    "main.js": "/Portfolio-Kenfack/static/js/main.e9f573dd.js",
+    "main.js": "/Portfolio-Kenfack/static/js/main.5f5a5189.js",
     "static/js/787.40f50545.chunk.js": "/Portfolio-Kenfack/static/js/787.40f50545.chunk.js",
     "static/media/sophie_bluel.png": "/Portfolio-Kenfack/static/media/sophie_bluel.533fcd5b8b085bb07c7e.png",
     "static/media/kasa.png": "/Portfolio-Kenfack/static/media/kasa.6c108a39cd226a6709bd.png",
@@ -14,11 +14,11 @@
     "static/media/logo.svg": "/Portfolio-Kenfack/static/media/logo.ddf2c24397caeebeeca9c08ec76f5ca6.svg",
     "index.html": "/Portfolio-Kenfack/index.html",
     "main.b45c7ebd.css.map": "/Portfolio-Kenfack/static/css/main.b45c7ebd.css.map",
-    "main.e9f573dd.js.map": "/Portfolio-Kenfack/static/js/main.e9f573dd.js.map",
+    "main.5f5a5189.js.map": "/Portfolio-Kenfack/static/js/main.5f5a5189.js.map",
     "787.40f50545.chunk.js.map": "/Portfolio-Kenfack/static/js/787.40f50545.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b45c7ebd.css",
-    "static/js/main.e9f573dd.js"
+    "static/js/main.5f5a5189.js"
   ]
 }
